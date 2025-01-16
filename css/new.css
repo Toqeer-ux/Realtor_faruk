@@ -1,0 +1,12 @@
+.property-name .property-heading{
+    background-color: #191A1C;
+    margin: 8px 0;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+}
+.property-name .property-heading h2{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+}
