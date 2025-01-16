@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/intlTelInput.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- wol carousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="navbar-data">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#">
+                        <img src="./imgs/logo.png" alt="">
+                    </a>
+                    <div class="main-nav">
+                        <div class="head-selction area-selection">
+                            <select class="sqft-select" name="" id="">
+                                <option value="">SQ FT</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                            </select>
+                            <select class="aed-select" name="" id="">
+                                <option value="">AED</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                            </select>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Projects <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Munu 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Munu 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Munu 1</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact me</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Others <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Munu 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Munu 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Munu 1</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="enquiry">
+                        <h3>Instant</h3>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#enquiryModal">Enquiry</a>
+                    </div>
+        
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="enquiry-mobile">
+        <h3>Instant</h3>
+        <a href="">Enquiry</a>
+    </div>
+    
+    <div class="contact-page">
+        <div class="container">
+            <div class="contact-title">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-section">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 pe-md-0">
+                        <div class="cont-form-box">
+                            <div class="user-info">
+                                <div class="user-img">
+                                    <img src="imgs/profile-pic.jpg" alt="" srcset="">
+                                </div>
+                                <div class="user-detail">
+                                    <div class="name"><h2>Syed Farrukh Hussain</h2></div>
+                                    <div class="designation">Client Manager</div>
+                                </div>
+                            </div>
+                            <div class="form-entry">
+                                <div class="form-title">
+                                    <h3>Get in Touch</h3>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div><input type="text" class="form-control" placeholder="First Name"></div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="ms-auto"><input type="text" class="form-control ms-auto" placeholder="Last Name"></div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div><input type="text" class="form-control" placeholder="Email Address"></div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div><input type="text" class="form-control ms-auto" id="phone" placeholder="Number"></div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <textarea name="" class="form-control" id="" cols="10" rows="4" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-lg-9 col-md-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault" style="color: #f8d247;">
+                                                I agree to submit my contact information
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-12">
+                                        <div class="form-field  text-end">
+                                            <button class="btn form-btn">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 mt-3 mt-lg-0">
+                        <div class="cont-address-box">
+                            <h3>ABOUT THE AGENCY</h3>
+                            <div class="detail">
+                                <img src="imgs/homes-logo.png" alt="" srcset="">
+                                <div class="address-detail">Office 25, Oasis Center, <br>Sheikh Zayed Road, Dubai 
+                                    PO Box 34542</div>
+                                <p>Cell: 00971-50-227-7194 <br>WhatsApp: 00971-50-227-7194 <br>Email: info@realtorfarrukh.com <br>Web: realtorfarrukh.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overview mb-5">
+                <div class="box-one">
+                    <h1>About Me</h1>
+                    <div class="view-box"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+<!-- ENQUIRY modal -->
+<div class="modal fade" id="enquiryModal" tabindex="-1" aria-labelledby="enquiryModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-inside">
+                <div class="modal-header justify-content-center">
+                    <h2 class="modal-title" id="enquiryModalLabel">Instant Enquiry Form</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="popup-form">
+                                <div class="form-field">
+                                    <input class="form-control" type="text" placeholder="Name">
+                                </div>
+                                <div class="form-field">
+                                    <input class="form-control" type="text" placeholder="Email">
+                                </div>
+                                <div class="form-field">
+                                    <input class="form-control" type="text" placeholder="Number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-field">
+                                <textarea class="form-control" name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault" style="color: #f8d247;">
+                                    I agree to submit my contact information
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-field text-end">
+                                <button class="btn form-btn">Submit Enquiry</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Download modal -->
+<div class="modal fade" id="bookCalldModal" tabindex="-1" aria-labelledby="bookCalldModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-inside">
+                <div class="modal-header justify-content-center">
+                    <h2 class="modal-title" id="bookCalldModalLabel">Book a Call</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+                </div>
+                <div class="modal-body">
+                    <h4 class="text-center mb-4" style="color: #f8d247;">Choose the best time for the callback</h4>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="popup-form">
+                                <div class="form-field">
+                                    <input class="form-control" type="text" placeholder="Name">
+                                </div>
+                                <div class="form-field">
+                                    <input class="form-control" type="date" placeholder="Today">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-field">
+                                        <input class="form-control" type="text" placeholder="Code">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="form-field">
+                                        <input class="form-control" type="text" placeholder="Number">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-field">
+                                <input class="form-control" type="time" placeholder="Time">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault" style="color: #f8d247;">
+                                    I agree to submit my contact information
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-field  text-end">
+                                <button class="btn form-btn">Submit Enquiry</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Download modal -->
+<div class="modal fade" id="downloadModal" tabindex="-1" aria-labelledby="downloadModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-inside">
+                <div class="modal-header justify-content-center">
+                    <h2 class="modal-title" id="downloadModalLabel">Register to Download</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="popup-form">
+                                <div class="form-field">
+                                    <input class="form-control" type="text" placeholder="Name">
+                                </div>
+                                <div class="form-field">
+                                    <input class="form-control" type="text" placeholder="Email">
+                                </div>
+                                <div class="form-field">
+                                    <input class="form-control" type="text" placeholder="Number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-field">
+                                <textarea class="form-control" name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault" style="color: #f8d247;">
+                                    I agree to submit my contact information
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-field">
+                                <button class="btn form-btn">Submit Enquiry</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="owner-name">
+                        <h3>Realtor Farrukh - All Right Reserve</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="policy">
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="footer-links">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-google"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="go-top">
+            <a href="#top">
+                <img src="imgs/icon/top-icon.png" alt="">
+            </a>
+        </div>
+    </footer>
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- Jquery -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- owl -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/intlTelInput.js"></script>
+	
+	<script>
+	var mobile_number_input = document.querySelector("#phone");
+
+		mobile_number = window.intlTelInput(mobile_number_input, {
+		separateDialCode: true,
+		utilsScript: "./js/utils.js",
+
+		});
+		jQuery('#country_code').val(mobile_number.getSelectedCountryData().dialCode);
+		mobile_number_input.addEventListener("countrychange", function() {
+		jQuery('#country_code').val(mobile_number.getSelectedCountryData().dialCode);
+		});
+	
+	</script>
+	
+</body>
+</html>

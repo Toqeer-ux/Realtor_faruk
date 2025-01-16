@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Landing Page</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/new.css">
+    <!-- font awesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- wol carousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+</head>
+<body id="top">
+    <header class="main-header landing-page">
+        <div class="navbar-data">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="{{url('/')}}">
+                        <img src="{{ url('frontAssets/imgs/logo.png')}}" alt="">
+                    </a>
+                    <div class="main-nav">
+                        <div class="head-selction area-selection">
+                            <select class="sqft-select" name="" id="">
+                                <option value="">SQ FT</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                            </select>
+                            <select class="aed-select" name="" id="">
+                                <option value="">AED</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                            </select>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Overview</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Amenities</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Payment Plan</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Floor Details</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Location</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Gallery</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="top-download">
+                        <h3>Brochure</h3>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#brochureModal">Download</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="" class="landBrochure-mobile">
+        <h3>Brochure</h3>
+        <a href="#" data-bs-toggle="modal" data-bs-target="#brochureModal">Download</a>
+    </div>
+    <section class="landing-hero hero">
+        <div class="container">
+            <div class="hero-data">
+                <div class="row flex-lg-row flex-column-reverse">
+                    <div class="col-lg-6 pe-md-0">
+                        <div class="hero-data-detail">
+                            <div class="hero-heading">
+                                <h1>Blue Horizon Villa</h1>
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-6">
+                                        <div class="hero-head-left">
+                                            <h3>Quick Facts</h3>
+                                            <div class="hero-head-btn">
+                                                <div class="status">
+                                                    <a href="">Status</a>
+                                                </div>
+                                                <div class="lunch-btn">
+                                                    <a href="">New Launch</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 col-md-6">
+                                        <div class="price-tag mt-3 mt-md-0">
+                                            <div class="hero-head-icon">
+                                                <i class="fa-solid fa-house-user"></i>
+                                            </div>
+                                            <div class="hero-head-right-text">
+                                                <span>Price Form</span>
+                                                <h5>AED 19 millions</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero-body-data landing-banner-serve">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="hero-box">
+                                            <a href="#">
+                                                <div class="box-icon">
+                                                    <img src="imgs/icon/developers.png" alt="">
+                                                </div>
+                                                <div class="box-text">
+                                                    <span>Developer</span>
+                                                    <h3>Emaar Properties</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="hero-box">
+                                            <a href="#">
+                                                <div class="box-icon">
+                                                    <img src="imgs/icon/location.png" alt="">
+                                                </div>
+                                                <div class="box-text">
+                                                    <span>Community</span>
+                                                    <h3>Palm Jebel Ali</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="hero-box">
+                                            <a href="#">
+                                                <div class="box-icon">
+                                                    <img src="imgs/icon/unit.png" alt="">
+                                                </div>
+                                                <div class="box-text">
+                                                    <span>Unit Type</span>
+                                                    <h3>4, 5, & 6 Bedroom</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="hero-box">
+                                            <a href="#">
+                                                <div class="box-icon">
+                                                    <img src="imgs/icon/type.png" alt="">
+                                                </div>
+                                                <div class="box-text">
+                                                    <span>Property Type</span>
+                                                    <h3>Villa</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="hero-box">
+                                            <a href="#">
+                                                <div class="box-icon">
+                                                    <img src="imgs/icon/wallet.png" alt="">
+                                                </div>
+                                                <div class="box-text">
+                                                    <span>payment Type</span>
+                                                    <h3>80/20</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="hero-box">
+                                            <a href="#">
+                                                <div class="box-icon">
+                                                    <img src="imgs/icon/handover.png" alt="">
+                                                </div>
+                                                <div class="box-text">
+                                                    <span>Handover</span>
+                                                    <h3>Q4 - 2027</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hero-img" style="background-image: url(imgs/landing-banner.jpg);">
+                            <!-- <img src="./imgs/landing-banner.jpg" alt=""> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="property-name">
+        <div class="container">
+            <div class="property-heading">
+                <h2>Elite living by Ellington Properties</h2>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="overview">
+                <div class="box-one">
+                    <h3>Overview</h3>
+                    <div class="view-box"></div>
+                </div>
+                <div class="box-two">
+                    <h3>Notable Features</h3>
+                    <div class="feature-box">Reportage Village, situated in Dubailand, presents an exclusive collection of modern and upscale residential townhouses that embody the epitome of luxury living. Strategically located near Dubai's key attractions, the community is surrounded by parks, schools, mosques, and convenient retail outlets. Comprising 1767 townhouses, each residence within Reportage Village adheres to the highest international standards in design, quality, and spaciousness. The development is part of Dubailand, commitment to being one of the region's most environmentally friendly projects, evident in its extensive landscaping and eco-conscious policies, reflecting a dedication to a green and clean environment. This comprehensive blend of sophistication, convenience, and environmental consciousness makes Reportage Village an ideal choice for discerning property purchasers seeking a premium lifestyle in Dubai.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="secondary-section Amenities">
+        <div class="container">
+            <div class="amenities-box">
+                <h3>Amenities</h3>
+                <div class="amenties-box-data">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-4">
+                            <div class="amenties-data">
+                                <a href="#">
+                                    <div class="amenties-icon">
+                                        <img src="imgs/icon/pool.png" alt="">
+                                    </div>
+                                    <div class="amenties-text">
+                                        <h4>Infinity <br>Pool</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4">
+                            <div class="amenties-data">
+                                <a href="#">
+                                    <div class="amenties-icon">
+                                        <img src="imgs/icon/fitness.png" alt="">
+                                    </div>
+                                    <div class="amenties-text">
+                                        <h4>Fitness <br> Center</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4">
+                            <div class="amenties-data">
+                                <a href="#">
+                                    <div class="amenties-icon">
+                                        <img src="imgs/icon/spa.png" alt="">
+                                    </div>
+                                    <div class="amenties-text">
+                                        <h4>SPA <br>Services</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4">
+                            <div class="amenties-data">
+                                <a href="#">
+                                    <div class="amenties-icon">
+                                        <img src="imgs/icon/chauffer.png" alt="">
+                                    </div>
+                                    <div class="amenties-text">
+                                        <h4>Chauffeur <br> Services</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4">
+                            <div class="amenties-data">
+                                <a href="#">
+                                    <div class="amenties-icon">
+                                        <img src="imgs/icon/cafe.png" alt="">
+                                    </div>
+                                    <div class="amenties-text">
+                                        <h4>Beverage <br>Cafes</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4">
+                            <div class="amenties-data">
+                                <a href="#">
+                                    <div class="amenties-icon">
+                                        <img src="imgs/icon/card.png" alt="">
+                                    </div>
+                                    <div class="amenties-text">
+                                        <h4>Parking Access <br> Card</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="explore-btn">
+                    <a href="">Explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="secondary-section payment">
+        <div class="container">
+            <div class="payment-box-data">
+                <h3>Payment Plan</h3>
+                <div class="payment-plan-data">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="payment-box">
+                                <div class="payment-box-icon">
+                                    <img src="imgs/icon/down-pay.png" alt="">
+                                </div>
+                                <div class="payment-text">
+                                    <h1>10%</h1>
+                                    <div class="down-payment">
+                                        <a href="#">Down payment</a>
+                                    </div>
+                                    <div class="book-date">
+                                        <span>
+                                            On Booking Date
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="payment-box">
+                                <div class="payment-box-icon">
+                                    <img src="imgs/icon/during.png" alt="">
+                                </div>
+                                <div class="payment-text">
+                                    <h1>30%</h1>
+                                    <div class="down-payment">
+                                        <a href="#">During Payment</a>
+                                    </div>
+                                    <div class="book-date">
+                                        <span>
+                                            1st to 35th installment
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="payment-box">
+                                <div class="payment-box-icon">
+                                    <img src="imgs/icon/handover-color.png" alt="">
+                                </div>
+                                <div class="payment-text">
+                                    <h1>10%</h1>
+                                    <div class="down-payment">
+                                        <a href="#">On Handover</a>
+                                    </div>
+                                    <div class="book-date">
+                                        <span>
+                                            On 100% Completion
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="payment-box">
+                                <div class="payment-box-icon">
+                                    <img src="imgs/icon/property.png" width="76" alt="">
+                                </div>
+                                <div class="payment-text">
+                                    <h1>50%</h1>
+                                    <div class="down-payment">
+                                        <a href="#">Post Handover</a>
+                                    </div>
+                                    <div class="book-date">
+                                        <span>
+                                            Within 50 Months
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="secondary-section Details">
+        <div class="container">
+            <div class="detail-data">
+                <h3>Floor Details</h3>
+                <div class="detail-box-data">
+                    <table>
+                        <tr>
+                            <th>Category</th>
+                            <th>Min.size</th>
+                            <th>Max.size</th>
+                            <th>Min.price</th>
+                            <th>Max.price</th>
+                            <th>Type</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-bed"></i>
+                                <span>4 Bedrooms</span>
+                            </td>
+                            <td>2100 Sq-ft</td>
+                            <td>3500 Sq-ft</td>
+                            <td>AED 1.5 Million</td>
+                            <td>AED 2.5 Million</td>
+                            <td>Townhouse</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-bed"></i>
+                                <span>5 Bedrooms</span>
+                            </td>
+                            <td>4000 Sq-ft</td>
+                            <td>5500 Sq-ft</td>
+                            <td>AED 2.9 Million</td>
+                            <td>AED 3.9 Million</td>
+                            <td>Villa</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-bed"></i>
+                                <span>6 Bedrooms</span>
+                            </td>
+                            <td>17,000 Sq-ft</td>
+                            <td>24,000 Sq-ft</td>
+                            <td>AED 10.5 Million</td>
+                            <td>AED 15.5 Million</td>
+                            <td>Mansion</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="payment-btn">
+                    <a href="">Explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="secondary-section Location">
+        <div class="container">
+            <div class="location-box">
+                <h3>Location</h3>
+                <div class="location-box-map">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="location-links">
+                                <ul>
+                                    <li>
+                                        <a href="">Schools</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Supermarkets</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Hospitals</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Transport</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.682833583!2d54.89781208970431!3d25.076280444810326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1706788822884!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrad"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="location-right-box"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="location-slider">
+                    <h3>Nearby Location</h3>
+                    <div class="slider-data nearby-location">
+                        <div class="row">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="slider-head">
+                                            <div class="icon">
+                                                <img src="imgs/icon/airplan.png" alt="">
+                                            </div>
+                                            <div class="text-icon">
+                                                <span>10 Min.</span>
+                                            </div>
+                                        </div>
+                                        <div class="slider-text">
+                                            <span>Dubai International. Air Port</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="slider-head">
+                                            <div class="icon">
+                                                <img src="imgs/icon/duck.png" alt="">
+                                            </div>
+                                            <div class="text-icon">
+                                                <span>10 Min.</span>
+                                            </div>
+                                        </div>
+                                        <div class="slider-text">
+                                            <span>Ras al Khor Wildlife Sanctuary</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="slider-head">
+                                            <div class="icon">
+                                                <img src="imgs/icon/flo.png" alt="">
+                                            </div>
+                                            <div class="text-icon">
+                                                <span>10 Min.</span>
+                                            </div>
+                                        </div>
+                                        <div class="slider-text">
+                                            <span>Palm Jumeirah</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card">
+                                        <div class="slider-head">
+                                            <div class="icon">
+                                                <i class="fa-brands fa-earlybirds"></i>
+                                            </div>
+                                            <div class="text-icon">
+                                                <span>10 Min.</span>
+                                            </div>
+                                        </div>
+                                        <div class="slider-text">
+                                            <span>Ras al Khor Wildlife Sanctuary</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="secondary-section Gallery">
+        <div class="container">
+            <div class="gallery-data">
+                <h3>Gallery</h3>
+                <div class="gallery-details">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 gallery-grid">
+                        <div class="col">
+                            <a class="gallery-item" href="" data-bs-toggle="modal" data-bs-target="#tabsdModal">
+                                <img src="./imgs/gallry-one.webp" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="gallery-item" href="" data-bs-toggle="modal" data-bs-target="#tabsdModal">
+                                <img src="./imgs/gallry-two.webp" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="gallery-item" href="" data-bs-toggle="modal" data-bs-target="#tabsdModal">
+                                <img src="./imgs/gallry-three.webp" class="img-fluid" alt="">
+                                <div class="overlay">
+                                    <span>5+</span>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="property-section section-ptb feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="feature-heading mb-3 mb-md-0">
+                        <h3>Simillar Properties</h3>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="show-btn">
+                        <a href="">Show All Properties</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider property-slider">
+                <div class="">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="./imgs/latest-prject1.webp" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <div class="location">
+                                        <h2><a href="#">Jouri Hills Phase 3</a></h2>
+                                        <div class="address">
+                                            <img src="imgs/icon/location-icon.png" alt="">
+                                            <span>Jumeirah Golf Estate</span>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                    <a href="#">AED: 4.9 Million</a>
+                                    </div>
+                                    <div class="lunch">
+                                       <span>New Launch</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="./imgs/latest-project2.webp" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <div class="location">
+                                        <h2><a href="#">The Sanctuary Villas</a></h2>
+                                        <div class="address">
+                                            <img src="imgs/icon/location-icon.png" alt="">
+                                            <span>Mohd. Bin Rashid City</span>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                    <a href="#">AED: 16.8 Million</a>
+                                    </div>
+                                    <div class="lunch">
+                                       <span>New Launch</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="./imgs/latest-project3.webp" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <div class="location">
+                                        <h2><a href="#">District One west Villa</a></h2>
+                                        <div class="address">
+                                            <img src="imgs/icon/location-icon.png" alt="">
+                                            <span>Mohd. Bin Rashid City</span>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                    <a href="#">AED: 59.9 Million</a>
+                                    </div>
+                                    <div class="lunch">
+                                       <span>New Launch</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="./imgs/latest-project-4.webp" alt="">
+                                </div>
+                                <div class="card-text">
+                                    <div class="location">
+                                        <h2><a href="#">Park view Villas</a></h2>
+                                        <div class="address">
+                                            <img src="imgs/icon/location-icon.png" alt="">
+                                            <span>Damac Hills 2</span>
+                                        </div>
+                                    </div>
+                                    <div class="price">
+                                    <a href="#">AED: 2.89 Million</a>
+                                    </div>
+                                    <div class="lunch">
+                                       <span>New Launch</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="show-all-btn">
+                    <a href="">Show All Properties</a>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="Contact" id="stop_top">
+        <div class="landing-page-contact-bar">
+            <div class="contact-data">
+                <div class="col">
+                    <div class="contact-box box-one">
+                        <a href="#">
+                            <div class="contact-icon">
+                                <img src="imgs/icon/enguiry.png" alt="">
+                            </div>
+                            <div class="contact-text">
+                                <span>Enquiry</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="contact-box box-two">
+                        <a href="#">
+                            <div class="contact-icon">
+                                <img src="imgs/icon/book-call.png" alt="">
+                            </div>
+                            <div class="contact-text">
+                                <span><span class="mobile-hide">Book a </span>Call</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="contact-box box-three">
+                        <a href="#">
+                            <div class="contact-icon">
+                                <img src="imgs/icon/whatsapp.png" alt="">
+                            </div>
+                            <div class="contact-text">
+                                <span>Whatsapp</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="contact-box box-four">
+                        <a href="#">
+                            <div class="contact-icon">
+                                <img src="imgs/icon/email.png" alt="">
+                            </div>
+                            <div class="contact-text">
+                                <span>Email</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+<!-- gallery modal -->
+<div class="modal gallery-tbs_modal" id="tabsdModal" tabindex="-1" aria-labelledby="tabsdModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-entry">
+                <div class="">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-tabs tab-bar" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="images-tab" data-bs-toggle="tab" data-bs-target="#imageTab" type="button" role="tab" aria-controls="imageTab" aria-selected="true">Photos</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="videos-tab" data-bs-toggle="tab" data-bs-target="#videos" type="button" role="tab" aria-controls="videos" aria-selected="false">Videos</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="imageTab" role="tabpanel" aria-labelledby="images-tab">
+                            <div class="demo-gallery">
+                                <ul id="lightgallery" class="list-unstyled row m-0">
+                                    <li class="col-lg-6 col-md-6"
+                                        data-responsive="imgs/gallry-one.webp"
+                                        data-src="imgs/gallry-one.webp">
+                                        <a href="" data-bs-dismiss="modal">
+                                            <img class="img-responsive"
+                                                src="imgs/gallry-one.webp">
+                                        </a>
+                                    </li>
+                                    <li class="col-lg-6 col-md-6"
+                                        data-responsive="imgs/gallry-two.webp"
+                                        data-src="imgs/gallry-two.webp">
+                                        <a href="" data-bs-dismiss="modal">
+                                            <img class="img-responsive"
+                                                src="imgs/gallry-two.webp">
+                                        </a>
+                                    </li>
+                                    <li class="col-lg-6 col-md-6"
+                                        data-responsive="imgs/gallry-three.webp"
+                                        data-src="imgs/gallry-three.webp">
+                                        <a href="" data-bs-dismiss="modal">
+                                            <img class="img-responsive"
+                                                src="imgs/gallry-three.webp">
+                                        </a>
+                                    </li>
+                                    <li class="col-lg-6 col-md-6"
+                                        data-responsive="imgs/gallry-two.webp"
+                                        data-src="imgs/gallry-two.webp">
+                                        <a href="" data-bs-dismiss="modal">
+                                            <img class="img-responsive"
+                                                src="imgs/gallry-two.webp">
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="videos" role="tabpanel" aria-labelledby="videos-tab">
+                            <div class="video-box">
+                                <iframe width="80%" height="450"
+                                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                    </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Brochure Download modal -->
+<div class="modal fade custom-md" id="brochureModal" tabindex="-1" aria-labelledby="brochureModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-inside">
+                <div class="modal-header justify-content-center">
+                    <h2 class="modal-title" id="brochureModalLabel">Register to Download</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                            class="fa fa-close"></i></button>
+                </div>
+                <div class="modal-body mb-2 p-4">
+                    <div class="brochere-section">
+                        <div class="check-box">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="brochurebx">
+                                <label class="form-check-label" for="brochurebx">
+                                    Brochure
+                                </label>
+                              </div>
+                        </div>
+                        <div class="check-box">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="paymentPlan">
+                                <label class="form-check-label" for="paymentPlan">
+                                    Payment Plan
+                                </label>
+                              </div>
+                        </div>
+                        <div class="check-box">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="floorPlan">
+                                <label class="form-check-label" for="floorPlan">
+                                    Floor Plan
+                                </label>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-form download-modal">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="modal-body">
+                                <div class="popup-form">
+                                    <div class="form-field">
+                                        <input class="form-control" type="text" placeholder="Name">
+                                    </div>
+                                    <div class="form-field">
+                                        <input class="form-control" type="text" placeholder="Email">
+                                    </div>
+                                    <div class="form-field">
+                                        <input class="form-control" type="text" placeholder="Number">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 mt-brocher-frm">
+                            <div class="modal-body">
+                                <div class="popup-form">
+                                    <div class="form-field">
+                                        <select name="" id="">
+                                            <option value="">Value one</option>
+                                            <option value="">Value two</option>
+                                            <option value="">Value three</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-field">
+                                        <select name="" id="">
+                                            <option value="">Value one</option>
+                                            <option value="">Value two</option>
+                                            <option value="">Value three</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-field">
+                                        <select name="" id="">
+                                            <option value="">Value one</option>
+                                            <option value="">Value two</option>
+                                            <option value="">Value three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="modal-body mt-2 p-4">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault" style="color: #f8d247;">
+                                    I agree to submit my contact information
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-field text-md-end mt-3 mt-md-0">
+                                <button class="btn form-btn">Donwload Brochure</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="owner-name">
+                        <h3>Realtor Farrukh - All Right Reserve</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="policy">
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="footer-links">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-google"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="landGo-top">
+            <a href="#top">
+                <img src="imgs/icon/top-icon.png" alt="">
+            </a>
+        </div>
+    </footer>
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- Jquery -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- owl -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/main.js"></script>
+
+    <link href="./css/lightgallery.min.css" rel="stylesheet">
+
+    <script>
+        $(document).ready(function () {
+            $('#lightgallery').lightGallery();
+        });
+    </script>
+    
+</body>
+</html>
